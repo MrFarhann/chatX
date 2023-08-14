@@ -1,0 +1,78 @@
+.formContainer{
+  background-color: #4bcb68;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .formWrapper{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    .logo{
+      font-family: cocogoose, sans-serif;
+      font-size: 24px;
+      color: green;
+    }
+    .title{
+      font-family: "cocogoose light", sans-serif;
+      color: #4ccc6c;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      input{
+        width: 250px;
+        padding: 14px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #9baf9b;
+        font-family: cocogoose, sans-serif;
+        &::placeholder{
+          color: #9baf9b;
+        }
+      }
+      label{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: cocogoose, sans-serif;
+        color: #4bcb68;
+        font-size: 13px;
+        cursor: pointer;
+        img{
+          width: 40px;
+        }
+      }
+      button{
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        outline: none;
+        font-family: cocogoose, sans-serif;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: rgba(0, 128, 0, 0.9);
+        }
+      }
+    }
+    p{
+      font-family: "cocogoose light", sans-serif;
+      font-size: 13px;
+      color: #7b987b;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: all 200ms linear;
+      &:hover{
+        color: #4bcb68;
+      }
+    }
+  }
+}
