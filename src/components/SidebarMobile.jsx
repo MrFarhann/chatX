@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 import Search from "./Search";
 import Chats from "./Chats";
 
-function Sidebar(){
+function SidebarMobile(props){
     return(
-        <div className="sidebar">
+        <div className="sidebar-mobile" style={props.style}>
             <Navbar/>
             <Search/>
             <Chats/>
@@ -12,4 +12,4 @@ function Sidebar(){
     )
 }
 
-export default Sidebar;
+export default SidebarMobile;

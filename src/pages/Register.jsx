@@ -5,7 +5,7 @@ function Register(){
             <div className="formWrapper">
                 <span className="logo">ChatX</span>
                 <span className="title">Register</span>
-                <form action="">
+                <form>
                     <input type="text" placeholder="Display Name"/>
                     <input type="text" placeholder="Email"/>
                     <input type="text" placeholder="Password"/>
